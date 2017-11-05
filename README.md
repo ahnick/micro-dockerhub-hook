@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/maccyber/micro-dockerhub-hook.svg?branch=master)](https://travis-ci.org/maccyber/micro-dockerhub-hook)
+[![Build Status](https://travis-ci.org/ahnick/micro-dockerhub-hook.svg?branch=master)](https://travis-ci.org/ahnick/micro-dockerhub-hook)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Coverage Status](https://coveralls.io/repos/github/maccyber/micro-dockerhub-hook/badge.svg)](https://coveralls.io/github/maccyber/micro-dockerhub-hook)
-[![Code Climate](https://codeclimate.com/github/maccyber/micro-dockerhub-hook/badges/gpa.svg)](https://codeclimate.com/github/maccyber/micro-dockerhub-hook)
-[![Greenkeeper badge](https://badges.greenkeeper.io/maccyber/micro-dockerhub-hook.svg)](https://greenkeeper.io/)
+[![Coverage Status](https://coveralls.io/repos/github/ahnick/micro-dockerhub-hook/badge.svg)](https://coveralls.io/github/ahnick/micro-dockerhub-hook)
+[![Code Climate](https://codeclimate.com/github/ahnick/micro-dockerhub-hook/badges/gpa.svg)](https://codeclimate.com/github/ahnick/micro-dockerhub-hook)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ahnick/micro-dockerhub-hook.svg)](https://greenkeeper.io/)
 
 # micro-dockerhub-hook
 
@@ -37,7 +37,7 @@ echo $TOKEN
 Nodejs and npm must be installed.
 
 ```sh
-git clone http://github.com/maccyber/micro-dockerhub-hook
+git clone http://github.com/ahnick/micro-dockerhub-hook
 cd micro-dockerhub-hook
 npm i
 ```
@@ -74,7 +74,7 @@ npm start
 
 Git clone
 ```sh
-git clone http://github.com/maccyber/micro-dockerhub-hook
+git clone http://github.com/ahnick/micro-dockerhub-hook
 ```
 
 Add secret token in docker.env with
@@ -91,7 +91,7 @@ docker-compose up -d
 
 Git clone
 ```sh
-git clone http://github.com/maccyber/micro-dockerhub-hook
+git clone http://github.com/ahnick/micro-dockerhub-hook
 ```
 
 Start with
@@ -102,7 +102,7 @@ docker run -d \
   -v ${PWD}/scripts:/src/scripts \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --name micro-dockerhub-hook \
-  maccyber/micro-dockerhub-hook
+  ahnick/micro-dockerhub-hook
 ```
 
 # Configuration on docker hub
@@ -124,7 +124,7 @@ docker-hook listens to port 3000 by default.
 Setup the development environment
 
 ```sh
-git clone https://github.com/maccyber/micro-dockerhub-hook/
+git clone https://github.com/ahnick/micro-dockerhub-hook/
 cd micro-dockerhub-hook
 npm i
 npm run dev
